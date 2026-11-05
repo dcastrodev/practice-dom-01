@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando atributos e estilos DOM</title>
+    <style>
+        .post{
+            max-width: 400px;
+            margin-bottom: 30px;
+        }
+
+        button{
+            margin-right: 10px;
+        }
+
+        .fonte-aumentada{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manipulando estilos na DOM</h1>
+    <button onclick="alterarCor()">Alterar Cor De Fundo do Primeiro Post</button>
+    <button onclick="aumentarTexto()">Aumentar Texto do Segundo Post</button>
+
+    <article class="post">
+        <p><strong>Fábio Akita</strong><span> @AkitaBr - 10 min</span></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel commodi consequuntur suscipit! Maxime officia esse error saepe eaque dolor facilis deleniti sint amet sit. Nostrum animi harum nihil culpa sapiente!</p>
+    </article>
+
+    <article class="post">
+        <p><strong>Peter Jordan</strong><span> @PJordan - 1 hour</span></p>
+        <p class="texto-post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel commodi consequuntur suscipit! Maxime officia esse error saepe eaque dolor facilis deleniti sint amet sit. Nostrum animi harum nihil culpa sapiente!</p>
+    </article>
+
+    <div>
+        <h3>Alterando Atributo do HTML</h3>
+        <button onclick="marcarGenero('M')">Marcar masculino</button>
+        <button onclick="marcarGenero('F')">Marcar feminino</button>
+        <br><br>
+        <label for="masculino">masculino</label>
+        <input type="radio" name="genero" id="masculino" checked>
+        <label for="feminino">feminino</label>
+        <input type="radio" name="genero" id="feminino">
+    </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
