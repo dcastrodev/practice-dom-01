@@ -5,7 +5,7 @@ Primeiro exercicio pratico de manipulação da DOM no js.
 ## 📍 Live Demo
 Veja o projeto no seu navegador:
 
-<a href="dcastrodev.github.io/practice-dom-01/"><strong>🔗 Click to View</strong></a>
+<a href="https://dcastrodev.github.io/practice-dom-01/"><strong>🔗 Click to View</strong></a>
 
 ## Tecnologias Utilizadas
 - **HTML5:**
